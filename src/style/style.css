@@ -39,6 +39,9 @@
     color: antiquewhite;
     text-decoration: none;
 }
+.quiensoy li{
+list-style: none;
+}
 
 
    
