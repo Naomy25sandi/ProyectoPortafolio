@@ -4,9 +4,9 @@ const password = document.getElementById("password")
 const form = document.getElementById("form")
 const parrafo = document.getElementById("warnings")
 
-form.addEventListener("submit", e=>){
+form.addEventListener("submit", e=>{
     e.preventDefault()
-    if ( nombre.ariaValueMax.length <6) {
+    if ( nombre.value.length <6) {
         alert("Nombre muy corto")
     }
-}
+})
