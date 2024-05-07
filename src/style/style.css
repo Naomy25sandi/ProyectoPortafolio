@@ -25,15 +25,8 @@
 button{
     font-family: Georgia, 'Times New Roman', Times, serif;
     background: violet;
-    border-radius: 40px;
+    border-radius: 20px;
     
 }
 
 
-.warnings{
-    width: 200px;
-    text-align: center;
-    margin: auto;
-    padding-top: 20px;
-    
-}
