@@ -1,0 +1,39 @@
+
+.body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(90, 179, 149);
+   display: flex;
+   
+ }
+
+.form{
+    background-color: antiquewhite;
+    margin: auto;
+    width: 60%;
+    max-width: 400px;
+    text-align: center;
+   
+
+}
+.grupo{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 20px; 
+   
+}
+button{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: violet;
+    border-radius: 40px;
+    
+}
+
+
+.warnings{
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    padding-top: 20px;
+    
+}
