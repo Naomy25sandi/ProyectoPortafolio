@@ -1,0 +1,48 @@
+.logo{
+    height: 5px;
+    width: auto;
+    cursor: pointer;
+}
+#{
+    box-sizing: border-box;
+    margin:10px ;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+.nav-links{
+    list-style: none;
+}
+.header{
+    background-color:rgb(239, 167, 203);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    padding: 5px 10%;
+    
+}
+.header .logo img:hover{
+    transform: scale(1.1);
+}
+.header .logo img{
+    height: 80px;
+    width: auto;
+    transition: all 0.3s;
+}
+.header .nav-links li{
+    display: inline-block;
+    padding: 0 30px;
+}
+.header .nav-links a{
+    font-size: 700;
+    color: antiquewhite;
+    text-decoration: none;
+}
+.quiensoy li{
+list-style: none;
+}
+
+
+
+   
