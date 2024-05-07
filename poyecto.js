@@ -5,6 +5,7 @@ const form = document.getElementById("form")
 const parrafo = document.getElementById("warnings")
 
 form.addEventListener("submit", e=>){
+    e.preventDefault()
     if ( nombre.ariaValueMax.length <6) {
         alert("Nombre muy corto")
     }
