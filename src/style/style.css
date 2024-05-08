@@ -1,13 +1,12 @@
 
 .body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: rgb(90, 179, 149);
-   display: flex;
+    display: flex;
    
  }
 
 .form{
-    background-color: antiquewhite;
+    background-color: rgb(250, 242, 215);
     margin: auto;
     width: 60%;
     max-width: 400px;
@@ -26,6 +25,14 @@ button{
     font-family: Georgia, 'Times New Roman', Times, serif;
     background: violet;
     border-radius: 20px;
+    border-radius: 20px;
+    width: 100px;
+    height: auto;
+    border: none;
+    color: black;
+     height: 25px;
+    cursor: pointer;
+  
     
 }
 
