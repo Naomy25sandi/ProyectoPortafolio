@@ -1,5 +1,5 @@
 .logo{
-    height: 5px;
+    height: 4px;
     width: auto;
     cursor: pointer;
 }
@@ -9,12 +9,13 @@
     padding: 0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 20px;
+   
 }
 .nav-links{
     list-style: none;
 }
 .header{
-    background-color:rgb(239, 167, 203);
+    background-color:rgb(237, 158, 197);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -36,13 +37,19 @@
 }
 .header .nav-links a{
     font-size: 700;
-    color: antiquewhite;
+    color: rgb(162, 18, 95);
     text-decoration: none;
 }
 .quiensoy li{
 list-style: none;
 }
+.contacto{
+    border-radius: 20px;
+    margin: 30px;
+    height: 30px;
+    
 
+}
 
 
    
