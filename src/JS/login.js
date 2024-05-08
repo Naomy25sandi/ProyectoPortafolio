@@ -9,6 +9,5 @@ btn.addEventListener("click", (e) => {
   } else {
     alert("acceso invalido")
   }
-   
-    })
+ })
 

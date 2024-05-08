@@ -1,0 +1,26 @@
+
+#loginform{
+    display: flex;
+    gap: 30px;
+     
+}
+.enter{
+  
+    justify-content: center;
+    background-color: aquamarine;
+    font: 130% sans-serif
+}
+.entrar{
+    margin-left: 20px;
+}
+#btn{
+    border-radius: 30px;
+    width: 100px;
+    height: auto;
+}
+.enter a{
+    display: flex;
+    margin-top: 20px;
+    font: oblique bold 120% cursive;
+
+}
