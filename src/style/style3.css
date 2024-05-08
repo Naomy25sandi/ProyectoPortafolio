@@ -1,29 +1,45 @@
 
+
 #loginform{
     display: flex;
-    gap: 30px;
+    gap: 40px;
+    padding: 30px;
    
 }
 .enter{
     justify-content: center;
-    background-color:rgb(145, 126, 139)
-    font: 130% sans-serif
+    padding: 30px;
+    
 }
 .entrar{
     margin-left: 20px;
+    font: 400;
+    color: rgb(21, 0, 255);
    
 }
 #btn{
-    border-radius: 30px;
+    border-radius: 20px;
     width: 100px;
     height: auto;
+    border: none;
+    color: black;
+    height: 30px;
+    cursor: pointer;
+    background-color: rgb(43, 0, 255);
+    
 }
 .enter a{
     display: flex;
     margin-top: 20px;
     font: oblique bold 120% cursive;
-
 }
-.bouquet{
-    
+.ing{
+    border-radius: 20px;
+    width: 100px;
+    height: auto;
+    border: none;
+    color: black;
+     height: 25px;
+    cursor: pointer;
+    background-color: rgb(43, 0, 255);
 }
