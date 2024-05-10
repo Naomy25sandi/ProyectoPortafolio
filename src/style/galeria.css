@@ -6,7 +6,7 @@
 }
 .contenedor {
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 40% 40%;
     font-size: 35px;
     margin-top: 50px;
     grid-gap: 32px;
@@ -22,4 +22,28 @@ h3{
     text-align: center;
     font-size: 35px;
     margin-top: 50px;
+}
+.full-img{
+    width: 100%;
+    height: 100dvh;
+    background-color: rgba(0, 0, 0, 0.9);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 99;
+}
+.full-img span{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    font-size: 30px;
+    color: antiquewhite;
+    cursor: pointer;
+}
+full-img img{
+    width: 90%;
+    max-width: 700px;
 }

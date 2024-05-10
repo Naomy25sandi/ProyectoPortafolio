@@ -9,9 +9,10 @@ const btnRegistrarse = document.getElementById("btnRegistrarse")
 
 function guardar_localstorage() {
     //acceso a mas usuarios con una lista//
-    localStorage.setItem("nombre",nombre.value)
-    localStorage.setItem("email",email.value)
-    localStorage.setItem("password",password.value)
+    usuario = [nombre.value, email.value, password.value]
+
+    localStorage.setItem("usuario",usuario)
+    
 }
 
 btnRegistrarse.addEventListener("click",()=>{   

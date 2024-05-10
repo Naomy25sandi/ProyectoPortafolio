@@ -3,7 +3,7 @@ const email = document.getElementById("email")
 const password = document.getElementById("password")
 const btn = document.getElementById("btn")
 
-let emailLocalStorage = localStorage.getItem("email") ||"naomysandi25@gmail.com";
+let emailLocalStorage = localStorage.getItem("usuario") ||"naomysandi25@gmail.com";
 let claveLocalStorage = localStorage.getItem("password") || "251087nsq"
 
 console.log(emailLocalStorage)
@@ -18,4 +18,5 @@ btn.addEventListener("click", (e) => {
     alert("acceso invalido")
   }
  })
+
 
