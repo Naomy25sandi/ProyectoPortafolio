@@ -1,12 +1,27 @@
-const form = document.querySelector("form")
-form.addEventListener('submit',(e)=>){
-    e.preventDefault()
-    window.location.href= "login.html"
+const inputNombre = document.getElementById("name")
+const inputEmail= document.getElementById("email")
+const inputPassword = document.getElementById("password")
+const btnRegistrarse = document.getElementById("btnRegistrarse")
+
+const users = JSON.parse(localStorage.getItem("users")) || []
+
+function guardarDatos() {
+    let registroUsuarios = {
+        nombre: inputNombre.value,
+        correo: inputEmail.value,
+        clave: inputPassword.value   
+    }
+
+    users.push(registroUsuarios)
+
+    localStorage.setItem("users",JSON.stringify(users))
 }
 
 
-
-
+btnRegistrarse.addEventListener("click",()=>{
+    guardarDatos()
+    Window.location.href="login.html"
+})
 
 //Registro
 
