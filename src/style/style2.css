@@ -4,9 +4,9 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .logo{
-    height: 4px;
     width: auto;
     cursor: pointer;
+   
 }
 .nav-links{
     list-style: none;
