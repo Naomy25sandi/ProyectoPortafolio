@@ -10,7 +10,10 @@ console.log(emailLocalStorage)
 console.log(claveLocalStorage)
 
 btn.addEventListener("click", (e) => {
-  //for para craer acceso a mas usuarios//
+for (let users = 0; users < array.length; users++) {
+localStorage.getItem
+  
+}
   if (email.value === emailLocalStorage && password.value === claveLocalStorage) {
     e.preventDefault()
     window.location.href="portafolio.html"
