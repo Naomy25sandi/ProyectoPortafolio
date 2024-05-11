@@ -3,24 +3,24 @@ const inputEmail= document.getElementById("email")
 const inputPassword = document.getElementById("password")
 const btnRegistrarse = document.getElementById("btnRegistrarse")
 
-const users = JSON.parse(localStorage.getItem("users")) || []
-
-function guardarDatos() {
-    let registroUsuarios = {
-        nombre: inputNombre.value,
-        correo: inputEmail.value,
-        clave: inputPassword.value   
+function guardar_localStorage() {
+    let usuarios 
+   if (localStorage.getItem("usuarios")) {
+    usuarios=JSON.parse(localStorage.getItem("usuarios"))
     }
-
-    users.push(registroUsuarios)
-
-    localStorage.setItem("users",JSON.stringify(users))
+ else{
+    usuarios=[]
+   }  
 }
+const nuevoUsuario=(nombre;nombre.value,email;email.value,password;password.value)
+usuarios.push(nuevoUsuario)
+localStorage.getItem("usuarios",JSON.stringify('usuarios'))
+alert("Usuario Registrado")
+window.location.href="login.html"
 
 
 btnRegistrarse.addEventListener("click",()=>{
-    guardarDatos()
-    Window.location.href="login.html"
+    guardar_localStorage()
 })
 
 //Registro

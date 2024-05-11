@@ -3,23 +3,32 @@ const email = document.getElementById("email")
 const password = document.getElementById("password")
 const btn = document.getElementById("btn")
 
-let emailLocalStorage = localStorage.getItem("usuario") ||"naomysandi25@gmail.com";
-let claveLocalStorage = localStorage.getItem("password") || "251087nsq"
+btn.addEventListener("click",(e)=>{
+  e.preventDefault;
+})
+//Obtenemos los datos y contrase'a ingresados por el usuario
+const emailIngresado = email.value;
+const passwordIngresado = password.value;
 
-console.log(emailLocalStorage)
-console.log(claveLocalStorage)
+//obtenemos la info local storage
+const perfiles= JSON.parse(localStorage.getItem("usuarios"))||[];
+//para saber si encontro el perfil
+let perfilEncontrado = false;
 
-btn.addEventListener("click", (e) => {
-for (let users = 0; users < array.length; users++) {
-localStorage.getItem
+for (let index = 0; index < perfiles.length; index++) {
+  if (perfiles[index].email===emailIngresado && perfiles[index.password===passwordIngresado]) {
+  Window.location.href = "portafolio.html"
+  perfilEncontrado = true;
+  break;
+  }}
+  //si no encuentra perfil mostrar alerta
+if (perfilEncontrado) {
+  alert("acceso Invalido");
   
 }
-  if (email.value === emailLocalStorage && password.value === claveLocalStorage) {
-    e.preventDefault()
-    window.location.href="portafolio.html"
-  } else {
-    alert("acceso invalido")
-  }
- })
+btnRegistrar.addEventListener("click", (e)=>){
+  windoww.location.href = "index.html"
+}
+
 
 
