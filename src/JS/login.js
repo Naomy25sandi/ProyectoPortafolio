@@ -12,23 +12,25 @@ const passwordIngresado = password.value;
 
 //obtenemos la info local storage
 const perfiles= JSON.parse(localStorage.getItem("usuarios"))||[];
-//para saber si encontro el perfil
-let perfilEncontrado = false;
 
+let perfilEncontrado = false;
+//para saber si encontro el perfil
+// Recorremos los perfiles que son ingresados para buscar el perfil ingresado por el usuario
 for (let index = 0; index < perfiles.length; index++) {
-  if (perfiles[index].email===emailIngresado && perfiles[index.password===passwordIngresado]) {
-  Window.location.href = "portafolio.html"
+  if (perfiles[index].email===emailIngresado && perfiles[index].password===passwordIngresado) {
+ // si encuentra el perfil, me envia a portafolio//
+    Window.location.href = "portafolio.html"
   perfilEncontrado = true;
   break;
+  // se detiene el ciclo de busqueda//
   }}
-  //si no encuentra perfil mostrar alerta
+  //si no encuentra perfil mostrar alerta//
 if (perfilEncontrado) {
   alert("acceso Invalido");
   
 }
-btnRegistrar.addEventListener("click", (e)=>){
-  windoww.location.href = "index.html"
-}
+
+
 
 
 
