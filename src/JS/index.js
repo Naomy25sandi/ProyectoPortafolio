@@ -14,7 +14,7 @@ function guardar_localStorage() {
     usuarios=[]
    }  
 }
-const nuevoUsuario=(nombre.value,email.value,password.value);
+const nuevoUsuario=(nombre: nombre.value,email: email.value,password: password.value);
 usuarios.push(nuevoUsuario);
 localStorage.setItem("usuarios",JSON.stringify(usuarios));
 alert("Usuario Registrado");
